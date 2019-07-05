@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*브라우저 스타일 무효화시키기*/
+*{
+	margin:0; padding:0;}
+body{
+	font-family: 'Noto Sans KR', sans-serif, '돋움', Dotum;
+	font-size:14px; line-height:20px; color:#121212;}
+ul, ol{
+	list-style:none;}
+img{
+	vertical-align:top;}
+a{
+	text-decoration:none;}
+address{
+	font-style:normal;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

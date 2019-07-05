@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>야생의숨결</title>
+<head>
+    <link href="css/notosanskr.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="plugine/full-page-scroll.css">
+    <link rel="stylesheet" type="text/css" href="plugine/wow/animate.css">
+    <link rel="stylesheet" type="text/css" href="js/speed_canvas.css">
+    <link rel="stylesheet" type="text/css" href="css/event/snow.css">
+    <link rel="stylesheet" type="text/css" href="plugine/wow/animate.css">
+    <script src="js/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery/3.3.1/jquery.js"></script>
+    <script src="js/Scrollify/jquery.scrollify.js"></script>
+    <script src="js/fire_canvas.js"></script>
+    <script src="js/event/particles.min.js"></script>
+    <script src="plugine/wow/wow.js"></script>
+
+ 
+    <script>
+		window.addEventListener('load', function(){
+		$.scrollify({
+			section: "section",
+			easing: "easeOutQuad",
+			scrollSpeed: 1100,
+			updateHash: false,
+			before: function(index){
+				nav(index);
+			},
+			afterRender: function(){
+				currentSection();
+			}
+		});
+		}, false);
+    </script>
+	<script> new WOW().init(); </script>
+	
+       
+    
+    
+</head>
+
+
+<body>
+    <header id="header">
+        <h1 class="logo"><a href="#">logo</a></h1>
+        <nav class="navi">
+            <ul>
+                <li class="tit1"><a href="index.html#0">야생의숨결</a></li>
+                <li class="tit2"><a href="index.html#1">전설이복귀하다</a></li>
+                <li class="tit3"><a href="index.html#2">하이랄의영걸들</a></li>
+                <li class="tit4"><a href="index.html#3">발매안내</a></li>
+                <li class="tit5"><a href="index.html#4">사전예약</a></li>
+            </ul>
+        </nav>
+        <div class="utill">
+            <ul>
+                <li class="lang">
+                    <p><a href="#">KR</a></p>
+                    <p><a href="#">EN</a></p>
+                    <p><a href="#">JP</a></p>
+                </li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </div><!--.utill-->        
+    </header><!--#header-->
+
+    
+    
+    <!--intro-->
+ 
+	<div id="main" class="scroll-container">
+		<section class="section1">
+            <canvas id="canvas"></canvas>
+            <div class="inner wow fadeInDown">
+                <div class="innerGrid">
+                    <div class="heightGrid">
+                        <p class="zelda1"><img src="img/images/zelda01.png" alt="젤다이미지1"></p>                   
+                    </div>
+
+                </div>
+			</div>
+            <p class="scroll"></p>
+		</section>
+		<section class="section2">
+			<div class="inner">
+                <div class="innerGrid">
+                    <p class="title01"><img src="img/images/title1.png" align="전설이복귀하다"></p>
+                    <p class="mainImg2">
+                        <img src="img/images/source3.png" alt="젤다이미지2">
+                        <video class="video" loop muted autoplay width="578">
+                            <source src="zeldawild.mp4" type="video/mp4">
+                        </video>
+                    </p>                
+                </div>
+			</div>
+            <p class="scroll"></p>
+		</section>
+		<section class="section3">
+			<div class="inner">
+                <canvas class='snow' id='snow'></canvas>
+                <div class="innerGrid">
+                    <p class="title02"><img src="img/images/title2.png" alt="하이랄의영걸들"></p>
+                    <div class="clickBox">
+                        <ul class="box1">
+                            <li><a href="#">스위치</a></li>
+                            <li><a href="#">영상</a></li>
+                            <li><a href="#">DLC</a></li>
+                        </ul>
+                        <ul class="box2">
+                            <li><a href="#">background</a></li>
+                            <li><a href="#">product</a></li>
+                        </ul>
+                    </div><!--.clickBox-->
+                </div><!--.innerGrid-->
+            <p class="scroll"></p>
+			</div>
+		</section>
+		<section class="section4">
+            <canvas class='feather' id='feather'></canvas>
+            <div class="inner">
+                <div class="innerGrid">
+                    <p class="mainImg4"><img src="img/images/zelda02.png" alt="젤다이미지4"></p>   
+                    <div class="mainBar">
+                        <p class="switch"><span>switch</span></p>
+                        <p class="button"><span>button</span></p>
+                        <p class="will"><span>will</span></p>
+                    </div>
+                </div>
+			</div>
+            <p class="scroll"></p>
+		</section>
+		<section class="section5">
+			<div class="inner">
+               <div class="section intro" id="Intro">
+                    <span class="moving move1"></span>
+                    <span class="moving move2"></span>
+                    <span class="moving move3"></span>
+                    <div class="title_wrap">
+                        <div class="headline">
+                            <span class="bhide b_9 bar12"></span>
+                            <span class="bhide b_11 bar13"></span>
+                            <span class="bhide b_7 bar14"></span>
+                            <span class="bhide b_6 bar15"></span>
+                            <span class="bhide b_9 bar16"></span>
+                            <span class="bhide b_11 bar17"></span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="innerGrid">
+                    <p class="mainImg5"><img src="img/images/zelda03.png" alt="젤다이미지5"></p>
+                    <p class="text"><a href="#">예약하기</a></p>
+                    <p class="copy">copyright(c) 2019 Nintendo All rights reserved</p>
+                </div>
+			</div>
+		</section>
+	</div>
+    
+    
+    
+	<script src="plugine/full-page-scroll.js"></script>
+	<script src="js/java.js.js"></script>
+    <script src="js/speed_canvas.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,104 @@
+
+/* snow *_*/
+#snow {margin:0 auto; width: 100%; min-width: 1200px; 
+    background-color: transparent;
+    background-image: url(../../img/snow_01.png),url(../../snow_02.png);
+    -webkit-animation: snow 20s linear infinite;
+    -moz-animation: snow 20s linear infinite;
+    -ms-animation: snow 20s linear infinite;
+    animation: snow 20s linear infinite;
+	z-index: 999;
+	right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+	margin-top: 0;
+	pointer-events: none;
+	position: absolute;
+    height: 810px;
+}
+
+/*Keyframes*/
+
+@keyframes snow { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% { background-position: 000px 1000px, 400px 400px, 300px 300px }
+}
+
+@-moz-keyframes snow { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
+}
+
+@-webkit-keyframes snow { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% {
+        background-position: 000px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+@-ms-keyframes snow { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% { background-position: 000px 1000px, 400px 400px, 300px 300px }
+}
+
+
+
+
+
+
+
+
+
+
+/* feather *_*/
+#feather {margin:0 auto; width: 100%; min-width: 1200px; 
+    background-color: transparent;
+    background-image: url(../../img/feather.png);
+    -webkit-animation: feather 15s linear infinite;
+    -moz-animation: feather 15s linear infinite;
+    -ms-animation: feather 15s linear infinite;
+    animation: feather 15s linear infinite;
+	z-index: 999;
+	right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+	margin-top: 0;
+	pointer-events: none;
+	position: absolute;
+    height: 810px;
+}
+
+/*Keyframes*/
+
+@keyframes feather { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
+}
+
+@-moz-keyframes feather { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
+}
+
+@-webkit-keyframes feather { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% {
+        background-position: 500px 1000px, 400px 400px, 300px 300px;
+    }
+}
+
+@-ms-keyframes feather { 
+    0% { background-position: 0px 0px, 0px 0px, 0px 0px }
+
+    100% { background-position: 500px 1000px, 400px 400px, 300px 300px }
+}
+
