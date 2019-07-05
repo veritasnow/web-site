@@ -1,0 +1,456 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{}
+
+#wrap{
+	width:100%; min-width:1200px;
+	background-image:url(../img/bk.jpg);
+	background-repeat:no-repeat;
+	background-position:center;}
+
+.pager{
+	position:fixed; top:20%; left:50%;
+	margin-left:415px;
+	z-index:20;}
+
+.pager li{
+	margin-bottom:15px;}
+
+.pager li a{
+	display:block;
+	height:20px;
+	text-indent:-9999px;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	opacity:0.4;}
+
+.pager .on a{
+	opacity:1;}
+
+.pager li .pg1{
+	width:60px;
+	background-image:url(../img/HOVERTOP.png);}
+
+.pager li .pg2{
+	width:106px;	
+	background-image:url(../img/HOVERABOUT.png);}
+
+.pager li .pg3{
+	width:97px;
+	background-image:url(../img/HOVERDIS.png);}
+
+.pager li .pg4{
+	width:70px;
+	background-image:url(../img/HOVERFOR.png);}
+
+.pager li .pg5{
+	width:82px;
+	background-image:url(../img/HOVERWTIME.png);}
+
+.pager li .pg6{
+	width:99px;
+	background-image:url(../img/HOVERBANNER.png);}	
+
+
+#container{
+	width:1200px;
+	margin:0 auto;
+	padding:0 10px;}
+
+.Top{
+	position:relative;
+	width:1200px; height:984px;
+	margin:0 auto;
+	padding:0 10px;}
+	
+.Top h1{
+	position:absolute; top:538px; left:0;
+	width:100%;
+	font-size:60px; text-align:center;
+	color:#fff;}
+
+.Top p{
+	position:absolute; top:630px; left:0;
+	width:100%;
+	font-size:35px; text-align:center;
+	color:#fff;}	
+
+.Aboutme, .discovery, .forest, .zelda, .gta{
+	position:relative;
+	width:1100px; height:1000px;
+	margin:0 auto;}
+
+.Aboutme{}
+	
+.Aboutme h2, .Aboutme .Ab1, .Aboutme .Ab2, .Aboutme .Ab3 {
+	position:absolute; left:0;
+	width:100%;
+	text-align:center;}
+	
+.Aboutme h2{
+	top:90px;
+	font-weight:500;	
+	font-size:40px; color:#000020;}
+	
+.Aboutme h2:after{
+	width:203px;
+	content:"";	display:block;
+	margin-left:auto; margin-right:auto; margin-top:25px;
+	border-bottom:5px solid #000020;}
+	
+.Aboutme .Ab1{
+	top:180px;}
+
+.Aboutme .Ab1 .text{
+	font-size:28px; color:#000020;}
+
+.Aboutme .Ab1 .name{
+	margin-top:44px;
+	font-size:18px; color:#555555;
+	font-weight:450;}
+
+.Aboutme .Ab1 .name span{
+	font-size:20px;}
+
+.Aboutme .Ab2{
+	top:350px;}
+
+.Aboutme .Ab2 .tit, .Aboutme .Ab3 .tit{
+	font-size:28px; color:#000020;}
+
+.Aboutme .Ab2 .tit:before{
+	content:""; display:inline-block; vertical-align:top;
+	width:26px; height:26px;
+	margin-top:-4px; margin-right:5px;
+	background-image:url(../img/aicon1.png);
+	background-size:100% 100%;
+	background-repeat:no-repeat;}
+
+.Aboutme .Ab3 .tit:before{
+	content:""; display:inline-block; vertical-align:top;
+	width:26px; height:26px;
+	margin-top:-4px; margin-right:5px;
+	background-image:url(../img/aicon2.png);
+	background-size:100% 100%;
+	background-repeat:no-repeat;}
+
+
+.Aboutme .Ab2 .text1, .Aboutme .Ab3 .text1{
+	font-size:18px; line-height:32px; color:#555555;
+	margin-top:35px;}
+	
+.Aboutme .Ab3{
+	bottom:120px;}
+
+/*=============Aboutme끝============*/
+
+.discovery .title{
+	position:absolute; top:70px; left:0;
+	width:100%;
+	text-align:center;}
+
+.discovery .title h2{
+	font-weight:500;
+	font-size:40px;}
+	
+.discovery .title p{
+	font-size:25px; color:#555555;
+	margin-top:17px;}
+	
+.discovery .img{
+	display:block;
+	position:absolute; top:179px; left:50%;
+	margin-left:-385px;
+	width:770px; height:504px;
+	text-indent:-9999px;
+	background-image:url(../img/discovery1.png);
+	background-position:center;
+	background-size:100% auto;
+	background-repeat:no-repeat;}
+
+.discovery .mid{
+	position:absolute; top:737px; left:0px;
+	width:100%; text-align:center;}
+
+.discovery .mid li{
+	display:inline-block;
+	font-size:22px; color:#535353;}
+
+.discovery .mid .colorimg{
+	display:inline-block; vertical-align:top;
+	width:58px; height:24px;
+	margin-top:-2px; margin-left:20px; margin-right:60px;
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	background-image:url(../img/color1.png);
+	text-indent:-9999px;}	
+
+.discovery .mid .concept span{
+	margin-left:10px;
+	font-size:20px;
+	color:#535353;}
+	
+.discovery .textbox{
+	position:absolute; bottom:133px; left:50%;
+	margin-left:-274.5px;
+	text-indent:-9999px;
+	width:549px; height:90px;
+	background-image:url(../img/text1.png);
+	background-repeat:no-repeat;}	
+
+.discovery .btn{
+	position:absolute; bottom:70px; left:50%;
+	margin-left:-172px;}
+	
+.discovery .btn li{
+	float:left;}
+	
+.discovery .btn li a{
+	display:block;
+	text-indent:-9999px;
+	width:162px; height:41px;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	transition:all 0.9s ease;}	
+
+.discovery .btn .bt1 a{
+	margin-right:10px;
+	background-image:url(../img/txbtn1.png);}
+
+.discovery .btn .bt1:hover a{
+	background-image:url(../img/hovertxbtn1.png);}
+
+.discovery .btn .bt2 a{
+	background-image:url(../img/txbtn2.png)}
+
+.discovery .btn .bt2:hover a{
+	background-image:url(../img/hovertxbtn2.png);}
+	
+/*==========================디스커버리 끝===========================*/
+
+.zelda .title{
+	position:absolute; top:70px; left:0;
+	width:100%;
+	text-align:center;}
+
+.zelda .title h2{
+	font-weight:500;
+	font-size:40px;}
+	
+.zelda .title p{
+	font-size:25px; color:#555555;
+	margin-top:17px;}
+	
+.zelda .img{
+	display:block;
+	position:absolute; top:179px; left:50%;
+	margin-left:-292px;
+	width:584px; height:504px;
+	text-indent:-9999px;
+	background-image:url(../img/zelda1.png);
+	background-position:center;
+	background-size:100% auto;
+	background-repeat:no-repeat;}
+
+.zelda .mid{
+	position:absolute; top:737px; left:0px;
+	width:100%; text-align:center;}
+
+.zelda .mid li{
+	display:inline-block;
+	font-size:22px; color:#535353;}
+
+.zelda .mid .colorimg{
+	display:inline-block; vertical-align:top;
+	width:58px; height:24px;
+	margin-top:-2px; margin-left:20px; margin-right:60px;
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	background-image:url(../img/color4.png);
+	text-indent:-9999px;}	
+
+.zelda .mid .concept span{
+	margin-left:10px;
+	font-size:20px;
+	color:#535353;}
+	
+.zelda .textbox{
+	position:absolute; bottom:133px; left:50%;
+	margin-left:-274.5px;
+	text-indent:-9999px;
+	width:549px; height:90px;
+	background-image:url(../img/text3.png);
+	background-repeat:no-repeat;}	
+
+.zelda .btn{
+	position:absolute; bottom:70px; left:50%;
+	margin-left:-86px;}
+	
+.zelda .btn li{
+	float:left;}
+	
+.zelda .btn li a{
+	display:block;
+	text-indent:-9999px;
+	width:162px; height:41px;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	transition:all 0.9s ease;}	
+
+.zelda .btn .bt1 a{
+	margin-right:10px;
+	background-image:url(../img/txbtn3.png);}
+
+.zelda .btn .bt1:hover a{
+	background-image:url(../img/hovertxbtn3.png);}
+
+.zelda .btn .bt2 a{
+	background-image:url(../img/txbtn2.png)}
+
+.zelda .btn .bt2:hover a{
+	background-image:url(../img/hovertxbtn2.png);}
+	
+/*==========================젤다 끝===========================*/
+
+
+.forest{}
+
+.forest .title{
+	position:absolute; top:70px; left:0;
+	width:100%;
+	text-align:center;}
+
+.forest .title h2{
+	font-weight:500;
+	font-size:40px;}
+	
+.forest .title p{
+	font-size:25px; color:#555555;
+	margin-top:17px;}
+	
+.forest .img{
+	display:block;
+	position:absolute; top:179px; left:50%;
+	margin-left:-324.5px;
+	width:649px; height:504px;
+	text-indent:-9999px;
+	background-image:url(../img/forest1.png);
+	background-position:center;
+	background-size:100% auto;
+	background-repeat:no-repeat;}
+
+.forest .mid{
+	position:absolute; top:737px; left:0px;
+	width:100%; text-align:center;}
+
+.forest .mid li{
+	display:inline-block;
+	font-size:22px; color:#535353;}
+
+.forest .mid .colorimg{
+	display:inline-block; vertical-align:top;
+	width:58px; height:24px;
+	margin-top:-2px; margin-left:20px; margin-right:60px;
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	background-image:url(../img/color2.png);
+	text-indent:-9999px;}	
+
+.forest .mid .concept span{
+	margin-left:10px;
+	font-size:20px;
+	color:#535353;}
+	
+.forest .textbox{
+	position:absolute; bottom:105px; left:50%;
+	margin-left:-274.5px;
+	text-indent:-9999px;
+	width:549px; height:118px;
+	background-repeat:no-repeat;
+	background-image:url(../img/text2.png);}	
+
+.forest .btn{
+	position:absolute; bottom:70px; left:50%;
+	margin-left:-263px;}
+	
+.forest .btn li{
+	float:left;}
+	
+.forest .btn li a{
+	display:block;
+	text-indent:-9999px;
+	width:162px; height:41px;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	transition:all 0.9s ease;}	
+
+.forest .btn .bt1 a{
+	margin-right:10px;
+	background-image:url(../img/txbtn3.png)}
+
+.forest .btn .bt1:hover a{
+	background-image:url(../img/hovertxbtn3.png);}
+
+.forest .btn .bt2 a{
+	margin-right:10px;
+	background-image:url(../img/txbtn4.png)}
+
+.forest .btn .bt2:hover a{
+	background-image:url(../img/hovertxbtn4.png);}
+
+.forest .btn .bt3 a{
+	background-image:url(../img/txbtn2.png)}
+
+.forest .btn .bt3:hover a{
+	background-image:url(../img/hovertxbtn2.png);}
+
+	
+/*==========================산림청 끝===========================*/
+
+
+.gta .title{
+	position:absolute; top:70px; left:0;
+	width:100%;
+	text-align:center;}
+
+.gta .title h2{
+	font-weight:500;
+	font-size:40px;}
+	
+.gta .title p{
+	font-size:25px; color:#555555;
+	margin-top:17px;}
+
+.gta .imgbox a{
+	position:absolute; top:200px; left:50%;
+	margin-left:-600px;
+	width:1200px; height:730px;
+	background-repeat:no-repeat;
+	background-size:100% auto;
+	background-image:url(../img/gta.png);}
+	
+.gta .boxin{
+	display:none;}
+
+.gta .slide{
+	position:absolute; top:85px; left:50%;
+	margin-left:-195px;
+	z-index:60;}
+
+/*======================기타 끝====================*/
+
+#footer{
+	height:100px;
+    background-color:#f2f2f2;}
+
+
+.hide{
+    display: none;
+}
+
+
+
+
+
+
