@@ -167,11 +167,16 @@ canvas{position:absolute;top:0;left:0}
 }
 
 
-.section1 .zelda01 img{}
+.section1 .zelda1{
+    position: absolute; top: 17%; left: -30px;
+}
 
 
 canvas{position:absolute;top:0;left:0}
 
+
+.section2 .innerPosition{
+    position: absolute; top: 19%; left: 0px;}
 
 .section2 .title01 img{
     margin-bottom: 30px; margin-left: 240px;}
@@ -186,6 +191,9 @@ canvas{position:absolute;top:0;left:0}
     position: absolute; top:49px; left:253px;
     width: 516px; height: 292px;}
 
+
+.section3 .innerPosition{
+    position: absolute; top: 21%; left: 0px;}
 
 .section3 .title02 img{
     margin-left: 120px; margin-bottom: 40px;}
@@ -278,7 +286,8 @@ canvas{position:absolute;top:0;left:0}
     background-image:url(../img/images/click5_chhover.png);}
 
 
-
+.section4 .innerPosition{
+    position: absolute; top: 15%; left: 2px;}
 
 .section4 .mainImg4 img{
     position: relative;
@@ -365,15 +374,16 @@ canvas{position:absolute;top:0;left:0}
     transition: ease-out .30s;}    
 
 
-
+.section5 .innerPosition{
+    position: absolute; top: 15%; left: 2px;}
 
 .section5 .mainImg5 img{
-    width: 54%; height:auto;
-    margin-left: 240px;  margin-bottom: 30px;}
+    width: 64%; height:auto;
+    margin-left: 228px;  margin-bottom: 30px;}
 
 .section5 .text{
     width: 140px;
-    margin-left: 434px;
+    margin-left: 439px;
     font-size:18px; color:#fff; text-align:center;
 	background-color:rgba(255,255,255,0.1);
 	border:1px solid rgba(250,247,220,0.6);
@@ -393,7 +403,7 @@ canvas{position:absolute;top:0;left:0}
     color: rgba(0,0,0,0.3);}
 
 .section5 .copy{
-	position: absolute; bottom: 5%; left: 354px;
+    margin-top: 20px; margin-left: 360px;
 	font-size:14px; color:#fff; opacity:0.4;}
 	/*margin-left:360px;*/
 
